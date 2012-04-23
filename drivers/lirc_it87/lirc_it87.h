@@ -106,7 +106,7 @@
 /* Baudratedivisor for IT87: power of 2: only 1,2,4 or 8) */
 #define IT87_CIR_BAUDRATE_DIVISOR 0x1
 #define IT87_CIR_DEFAULT_IOBASE 0x310
-#define IT87_CIR_DEFAULT_IRQ    0x7
+#define IT87_CIR_DEFAULT_IRQ    0xb
 #define IT87_CIR_SPACE 0x00
 #define IT87_CIR_PULSE 0xff
 #define IT87_CIR_FREQ_MIN 27

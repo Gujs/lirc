@@ -855,7 +855,7 @@ static int init_port(void)
 	       it87_chipid);
 
 	/* get I/O-Port and IRQ */
-	if (it87_chipid == 0x12 || it87_chipid == 0x18)
+	if (it87_chipid == 0x12 || it87_chipid == 0x18 || it87_chipid == 0x20)
 		ldn = IT8712_CIR_LDN;
 	else
 		ldn = IT8705_CIR_LDN;
